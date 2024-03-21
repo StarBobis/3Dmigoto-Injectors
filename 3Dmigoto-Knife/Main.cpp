@@ -266,11 +266,11 @@ int main()
 	HHOOK hook;
 	bool launch;
 
-	CreateMutexA(0, FALSE, "Local\\3DMigoto-Knife");
+	CreateMutexA(0, FALSE, "Local\\3DMigotoLoader");
 	if (GetLastError() == ERROR_ALREADY_EXISTS)
 		wait_exit(EXIT_FAILURE, _strdup("ERROR: Another instance of the 3DMigoto Loader is already running. Please close it and try again\n"));
 
-	printf("\n------------------------------- 3DMigoto Knife ------------------------------\n\n");
+	printf("\n------------------------------- 3DMigoto Loader (Knife version) ------------------------------\n\n");
 
 	ini_file = CreateFile(L"d3dx.ini", GENERIC_READ, FILE_SHARE_READ, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
 	if (ini_file == INVALID_HANDLE_VALUE)
@@ -299,13 +299,12 @@ int main()
 		exit_usage("d3dx.ini [Loader] section missing required \"target\" setting\n");
 
 
-
-
 	if (!find_ini_setting_lite(ini_section, "module", module_path, MAX_PATH))
 		exit_usage("d3dx.ini [Loader] section missing required \"module\" setting\n");
 
 	//we always need admin privileges.
-	elevate_privileges();
+	// Nico: 这玩意可能导致程序被识别为病毒，尽量不提权
+	//elevate_privileges();
 
 	module = LoadLibraryA(module_path);
 	if (!module) {
