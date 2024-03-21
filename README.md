@@ -8,6 +8,8 @@ just like the original 3Dmigoto Loader.exe, it need d3dx.ini to work.
 - In Deviare version, we use inject before ACE to bypass ACE's inject protector, run it will automatically start the game and
 inject the d3d11.dll.
 
+(Only tested in x64 version)
+
 # Ask for help
 https://discord.gg/Cz577BcRf5
 
