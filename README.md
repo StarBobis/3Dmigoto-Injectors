@@ -1,3 +1,9 @@
+# Archived
+Just after open source the ACE bypass inject way less in a week, HSR new version 2.1.0 fix this feature,
+so this project's two injector now all can't inject into HSR anymore,
+so I decide to gatekeep all the rest other inject ways, 
+Ironiclly, these hoyo security guys only eat when you push open source code into their mouth to make them.
+
 # 3Dmigoto-Injectors
 Special fork version of 3Dmigoto Loader.exe from original 3Dmigoto repository.
 
