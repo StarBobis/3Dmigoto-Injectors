@@ -4,7 +4,7 @@ can't inject into it anymore,i successly inject my compiled version with other i
 way in this repository won't work if they only give a fucking whitelist to a specific dll by md5 check, so this repository
 is deprecated , i will release and open source a fucking kernel driver to inject my d3d11.dll in my new project.
 
-Fuck the hoyoverse.
+Fuck the hoyoverse and fuck the star rail project's secure team.
 
 # 3Dmigoto-Injectors
 Special fork version of 3Dmigoto Loader.exe from original 3Dmigoto repository.
