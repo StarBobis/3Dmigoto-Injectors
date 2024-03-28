@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3Dmigoto-Knife", "3Dmigoto-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deviare-Injector", "Deviare-Injector\Deviare-Injector.vcxproj", "{0825F1FE-0013-4C4F-B390-0504A7B06528}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateSuspendedProcess", "CreateSuspendedProcess\CreateSuspendedProcess.vcxproj", "{9D08115F-1F14-4F3F-8121-46D3D70460A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{0825F1FE-0013-4C4F-B390-0504A7B06528}.Release|x64.Build.0 = Release|x64
 		{0825F1FE-0013-4C4F-B390-0504A7B06528}.Release|x86.ActiveCfg = Release|Win32
 		{0825F1FE-0013-4C4F-B390-0504A7B06528}.Release|x86.Build.0 = Release|Win32
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Debug|x64.ActiveCfg = Debug|x64
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Debug|x64.Build.0 = Debug|x64
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Debug|x86.Build.0 = Debug|Win32
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Release|x64.ActiveCfg = Release|x64
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Release|x64.Build.0 = Release|x64
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Release|x86.ActiveCfg = Release|Win32
+		{9D08115F-1F14-4F3F-8121-46D3D70460A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
