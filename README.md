@@ -1,1 +1,4 @@
-# 3Dmigoto-Injectors
+﻿# 3Dmigoto-Injectors
+
+Various way to inject 3Dmigoto into game.
+
